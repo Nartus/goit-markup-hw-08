@@ -1,0 +1,55 @@
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.excellence__headlines {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: var(--text-darkgray);
+}
+
+.excellence__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  background-color: var(--section-team);
+}
+
+.excellence {
+  padding-top: 94px;
+}
+
+.excellence__list {
+  display: flex;
+}
+
+.excellence__text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-gray);
+}
+
+.excellence__description {
+  margin-right: 30px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
