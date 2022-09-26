@@ -1,0 +1,60 @@
+@media screen and (max-width: 900px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navigation__link {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header-contacts {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .dark-fon {
+    padding-top: 118px;
+    padding-bottom: 198px;
+    background-color: var(--dark-fon);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .overlay {
+    max-width: 480px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 94px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/Imgfon.jpg);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .key-title {
+    display: block;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: 0;
+    color: var(--text-white);
+  }
+}
