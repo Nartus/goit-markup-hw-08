@@ -1,6 +1,6 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 480px) {
   .container {
-    width: 480px;
+    width: 450px;
   }
 }
 
@@ -45,16 +45,192 @@
 
 @media screen and (max-width: 480px) {
   .key-title {
-    display: block;
+    max-width: 360px;
     font-weight: 900;
     font-size: 26px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-right: auto;
     margin-left: auto;
-    margin-right: 0;
     color: var(--text-white);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .button {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .excellence {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .excellence__list {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .excellence__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .excellence__headlines {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .excellence__headlines {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .excellence__text {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .excellence__text:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .excellence__description {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section-two {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .team {
+    padding-bottom: 0;
+    padding-top: 60px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .team__list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .team__headline {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .team__block {
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .team__block:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .team__link-icon {
+    color: #afb1b8;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .clients-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section-svg {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .flex-footer-two {
+    margin: 0;
+    margin-top: 60px;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .clients-hover {
+    width: 210px;
+    height: 92px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .flex-footer {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .form-subscribe {
+    margin: 0;
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .form-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .button-email {
+    margin-top: 20px;
   }
 }
