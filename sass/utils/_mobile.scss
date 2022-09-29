@@ -168,12 +168,7 @@
 
 @media screen and (max-width: 480px) {
   .clients-flex {
-    display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 30px;
   }
 }
 
@@ -203,6 +198,11 @@
 
 @media screen and (max-width: 480px) {
   .clients-hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 92px;
     width: 210px;
     height: 92px;
   }
