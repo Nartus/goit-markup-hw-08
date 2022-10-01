@@ -1,29 +1,29 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .container {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .logo__header {
     padding-top: 16px;
     padding-bottom: 16px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .navigation__link {
     display: none;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .header-contacts {
     display: none;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .dark-fon {
     padding-top: 118px;
     padding-bottom: 198px;
@@ -31,7 +31,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .overlay {
     width: 100%;
     height: 400px;
@@ -58,7 +58,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .key-title {
     max-width: 100%;
     font-weight: 900;
@@ -73,13 +73,13 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .button {
     width: 200px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .excellence {
     display: flex;
     justify-content: center;
@@ -88,14 +88,14 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .excellence__list {
     display: flex;
     flex-direction: column;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .excellence__icons {
     display: flex;
     justify-content: center;
@@ -105,97 +105,103 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .excellence__headlines {
     text-align: center;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .excellence__headlines {
     text-align: center;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .excellence__text {
     margin-bottom: 30px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .excellence__text:last-child {
     margin-bottom: 0;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .excellence__description {
     margin-right: 0;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .section-two {
     display: none;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .team {
     padding-bottom: 0;
     padding-top: 60px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .team__list {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-bottom: 60px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .team__headline {
     margin-bottom: 30px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .team__block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 450px;
     margin-bottom: 30px;
-    margin-right: 0;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .team__block:last-child {
     margin-bottom: 0;
+    margin-right: auto;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .team__link-icon {
     color: var(--text-white);
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .clients-flex {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .section-svg {
     padding-bottom: 60px;
     padding-top: 60px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .footer-box {
     display: flex;
     flex-direction: column;
@@ -204,7 +210,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .flex-footer-two {
     margin: 0;
     margin-top: 60px;
@@ -212,7 +218,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .clients-hover {
     display: flex;
     justify-content: center;
@@ -222,20 +228,20 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .flex-footer {
     display: block;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .form-subscribe {
     margin: 0;
     margin-top: 60px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .form-email {
     display: flex;
     flex-direction: column;
@@ -243,13 +249,13 @@
     text-align: center;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .button-email {
     margin-top: 20px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .input-email {
     max-width: 450px;
     height: 50px;
@@ -259,27 +265,27 @@
 
 // модалка
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .backdrop {
     padding: 94px 15px 93px 15px;
     overflow: scroll;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .modal {
     width: 450px;
     height: 609px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .modal-input {
     width: 370px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .label-chekbox {
     font-family: "Roboto";
     font-style: normal;
@@ -291,7 +297,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .mobile-burger {
     border: none;
     background-color: transparent;
