@@ -1368,4 +1368,58 @@ img {
   right: 15px;
   border: none;
   background-color: transparent;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .mobile-burger {
+    display: none;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .header-contacts {
+    flex-direction: column;
+    padding-top: 21px;
+    margin-left: 96px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .navigation__margin-r {
+    margin-right: 88px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .header-contacts__link {
+    padding: 0;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .excellence {
+    padding-top: 60px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .key-title {
+    max-width: 100%;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-right: auto;
+    margin-left: auto;
+    color: var(--text-white);
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .excellence__list {
+    flex-basis: calc((100% - 30px) / 2);
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=main.css.map */
