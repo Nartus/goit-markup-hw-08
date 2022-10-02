@@ -182,7 +182,7 @@
 
 @media screen and (max-width: 767px) {
   .team__link-icon {
-    color: var(--text-white);
+    color: var(--icon-svg);
   }
 }
 
@@ -293,7 +293,7 @@
     font-size: 12px;
     line-height: 0.85;
     letter-spacing: 0.03em;
-    color: var();
+    color: #757575;
   }
 }
 
@@ -410,10 +410,6 @@
 
 .mobile-menu__color-link.current {
   color: #2196f3;
-}
-
-.mobile-menu__contacts {
-  margin-bottom: 302px;
 }
 
 .mobile-social-block {

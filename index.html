@@ -163,45 +163,50 @@
         </div>
       </section>
       <!-- ЧЕМ ЗАНИМАЕМСЯ -->
-      <!-- <section class="section-two">
+      <section class="section-two">
         <div class="container">
           <h2 class="headlines-two flex-work">Чим ми займаємося</h2>
           <ul class="flex-work">
             <li class="img-position">
-              <img
-                src="./images/img.jpg"
-                alt="крупним планом зображення програміста, який працює на робочому столі в офісі"
-                width="370"
-              />
+              <picture>
+                <source media="(min-width: 1200px)" srcset="../images/desktop/img.jpg 1x, ../images/desktop/img@2x.jpg 2x">
+               <img src="./images/desktop/img.jpg" alt="крупним планом зображення програміста, який працює на робочому столі в офісі">
+              </picture>
               <p class="img-text img-background">Десктопні додатки</p>
             </li>
             <li class="img-position">
-              <img
-                src="./images/img(1).jpg"
+              <picture>
+                <source media="(min-width: 1200px)" srcset="../images/desktop/css1x.jpg 1x, ../images/desktop/css@2x.jpg 2x">
+               <img
+                src="./images/css1x.jpg"
                 alt="дизайнери web-інтерфейсу розробляють додатки для смартфонів, команда творців працює над інтерфейсом мобільних телефонів"
-                width="370"
               />
+              </picture>
               <p class="img-text img-background">Мобільні додатки</p>
             </li>
             <li class="img-position">
-              <img
-                src="./images/img(2).jpg"
+              <picture>
+                <source media="(min-width: 1200px)" srcset="../images/desktop/js.1x.jpg 1x, ../images/desktop/js@2x.jpg 2x">
+               <img
+                src="./images/js.1x.jpg"
                 alt="творчий художник веб-дизайну з робочим графічним планшетом із вибором кольорів"
-                width="370"
               />
+              </picture>
               <p class="img-text img-background">Дизайнерські рішення</p>
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- НАША КОМАНДА -->
-      <!-- <section class="team">
+      <section class="team">
         <div class="container">
           <h2 class="team__headline">Наша команда</h2>
           <ul class="team__list">
             <li class="team__block">
               <picture>
-                <source media="(max-width: 480px)" srcset="../images/mobile/product-m.jpg 1x, ../images/mobile/product-m@2x.jpg 2x">
+                <source media="(max-width: 767px)" srcset="../images/mobile/product-m.jpg 1x, ../images/mobile/product-m@2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="../images/tablet/product-t.jpg 1x, ../images/tablet/product-t@2x.jpg 2x">
+                <source media="(min-width: 1200px)" srcset="../images/desktop/product-d.jpg 1x, ../images/tablet/product-d@2x.jpg 2x">
                 <img
                 src="./images/mobile/product-m.jpg"
                 alt="фото Ігор Дем'яненко"
@@ -242,7 +247,9 @@
             </li>
             <li class="team__block">
               <picture>
-                <source media="(max-width: 480px)" srcset="../images/mobile/frontend-m.jpg 1x, ../images/mobile/frontend-m@2x.jpg 2x">
+                <source media="(max-width: 767px)" srcset="../images/mobile/frontend-m.jpg 1x, ../images/mobile/frontend-m@2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="../images/tablet/frontend-t.jpg 1x, ../images/tablet/frontend-t@2x.jpg 2x">
+                <source media="(min-width: 1200px)" srcset="../images/desktop/frontend.jpg 1x, ../images/desktop/frontend@2x.jpg 2x">
                 <img
                 src="./images/mobile/frontend-m.jpg"
                 alt="фото Ольга Рєпіна"
@@ -283,7 +290,9 @@
             </li>
             <li class="team__block">
               <picture>
-                <source media="(max-width: 480px)" srcset="../images/mobile/marketing-m.jpg 1x, ../images/mobile/marketing-m@2x.jpg 2x">
+                <source media="(max-width: 767px)" srcset="../images/mobile/marketing-m.jpg 1x, ../images/mobile/marketing-m@2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="../images/tablet/marketing-t.jpg 1x, ../images/tablet/marketing-t@2x.jpg 2x">
+                <source media="(min-width: 1200px)" srcset="../images/desktop/marketing.jpg 1x, ../images/desktop/marketing@2x.jpg 2x">
                 <img
                 src="./images/mobile/marketing-m.jpg"
                 alt="фото Микола Тарасов"
@@ -324,7 +333,9 @@
             </li>
             <li class="team__block">
               <picture>
-                <source media="(max-width: 480px)" srcset="../images/mobile/designer-m.jpg 1x, ../images/mobile/designer-m@2x.jpg 2x">
+                <source media="(max-width: 767px)" srcset="../images/mobile/designer-m.jpg 1x, ../images/mobile/designer-m@2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="../images/tablet/designer-t.jpg 1x, ../images/tablet/designer-t@2x.jpg 2x">
+                <source media="(min-width: 1200px)" srcset="../images/desktop/designer.jpg 1x, ../images/desktop/designer@2x.jpg 2x">
                 <img
                 src="./images/mobile/designer-m.jpg"
                 alt="фото Михайло Єрмаков"
@@ -365,7 +376,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <section class="section-svg">
         <div class="container">
           <h4 class="standing-clients">Постійні клієнти</h4>
@@ -417,9 +428,10 @@
       </section>
     </main>
     <!-- ФУТЕР -->
-    <!-- <footer class="dark-fon-two">
+    <footer class="dark-fon-two">
       <div class="container footer-box">
-        <div class="mobile-footer">
+        <div class="footer-tablet">
+          <div class="mobile-footer">
           <div class="mobile-footer-logo">
             <a class="logo-footer flex-footer" href=""
               ><span class="logo-one">Web</span>Studio</a
@@ -476,6 +488,7 @@
             </li>
           </ul>
         </div>
+        </div>
         <div class="form-subscribe">
           <p class="email-headlines">Підпишіться на розсилку</p>
           <form class="form-email">
@@ -495,7 +508,7 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
