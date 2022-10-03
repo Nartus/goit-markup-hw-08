@@ -8,8 +8,11 @@
   .header-contacts__margin-r {
     margin-right: 50px;
   }
-  .team__link-icon {
-    color: var(--icon-svg);
+}
+
+@media screen and (min-width: 1200px) {
+  .header-contacts__link {
+    font-size: 14px;
   }
 }
 
@@ -34,5 +37,12 @@
         rgba(47, 48, 58, 0.4)
       ),
       url(../images/desktop/work@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-tablet {
+    display: flex;
+    gap: 70px;
   }
 }
